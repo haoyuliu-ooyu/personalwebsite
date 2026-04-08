@@ -1,0 +1,94 @@
+{
+  "header": {
+    "name": "Haoyu Liu",
+    "contact": "Tel: +12179740614 | Email: hliu8571@usc.edu",
+    "links": [
+      { "name": "LinkedIn", "url": "https://www.linkedin.com/in/liuhaoyuu/" },
+      { "name": "Github", "url": "https://github.com/Haoyuliu-ooyu" }
+    ]
+  },
+  "education": [
+    {
+      "school": "University of Southern California | Los Angeles, CA",
+      "date": "Aug 2023 - May 2026",
+      "degree": "Master of Science in Computer Science | GPA: 3.71/4.00"
+    },
+    {
+      "school": "University of Illinois, Urbana-Champaign | Champaign, IL",
+      "date": "Aug 2019 – May 2023",
+      "degree": "Bachelor of Science in Computer Science & Linguistics | GPA: 3.91/4.00",
+      "courses": "Data Structure & Algorithms, System Programming, Computer Architecture, Artificial Intelligence, Computational Linguistics, Programming Languages & Compiler, Computer Networks, Analysis of Algorithms, Web Development"
+    }
+  ],
+  "work_experience": [
+    {
+      "title": "Software Engineering Intern | Biaodian | Hangzhou, China",
+      "date": "Jan 2025 – Jul 2025",
+      "bullets": [
+        "Developed authentication system for delivery drivers using Java, Spring Boot, and Redis for session management on construction equipment rental platform",
+        "Built a statistical reporting dashboard with MySQL queries and automated data generation for business intelligence",
+        "Implemented Spring Cloud microservices with Feign clients for inter-service communication and Spring Filters for request validation",
+        "Integrated Flowable workflow engine to automate contract and order signing processes",
+        "Conducted migration from third-party driver management to in-house solution"
+      ]
+    },
+    {
+      "title": "Software Engineering Intern | Redvest | Los Angeles, CA",
+      "date": "Jun 2024 – Aug 2024",
+      "bullets": [
+        "Led a team of 6-7 interns as Tech Lead in developing Bankzzz, a platform connecting startup companies with potential users",
+        "Architected and implemented a full-stack application using React, Tailwind CSS for frontend and Node.js accompanied with Google Firebase for backend services",
+        "Oversaw project's GitHub repository and deployment pipeline using Firebase, including Firestore database integration",
+        "Established development workflows and best practices for intern team, ensuring consistent code quality and timely delivery"
+      ]
+    },
+    {
+      "title": "Research Assistant/Software Engineer | Coordinated Science Laboratory | Champaign, IL",
+      "date": "Apr 2022 – May 2023",
+      "bullets": [
+        "Contributed in DARPA’s INfluence Campaign Awareness and Sensemaking project, serving over 100 researchers",
+        "Engineered a robust frontend using JavaScript, React, and Bootstrap for effective data visualization using libraries like d3, Plotly, and Chart.js",
+        "Collaborated with 15+ member team to develop a Backend data post-processing pipeline with Python and Redis, streamlining ML model outputs for frontend integration"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Polyglot AI Document Pipeline",
+      "url": "",
+      "bullets": [
+        "Architected a distributed, polyglot microservices application using Go (Gin) for a high-concurrency API gateway and Python for asynchronous AI processing, fully containerized via Docker and deployed through Terraform",
+        "Implemented an event-driven task queue using Redis and AWS SQS to decouple client-facing file ingestion from heavy LLM workloads, ensuring high availability during large PDF uploads to AWS S3",
+        "Engineered a stateful AI worker workflow in Python to perform context-aware extraction and execute high-fidelity bilingual translations across large document contexts",
+        "Built a highly interactive React + Vite.js client featuring a responsive split-screen UI, mapping translated text chunks back to original document coordinate data in real-time for a seamless bilingual reading experience"
+      ]
+    },
+    {
+      "name": "Cross-platform Stock Simulator App",
+      "url": "",
+      "bullets": [
+        "Deployed a real-time stock simulation platform on GCP App Engine integrating Finnhub API for live market data, with a Node.js/Express.js backend, MongoDB persistence, and RESTful APIs for portfolio tracking and trade execution",
+        "Built an Angular/Bootstrap/Highcharts frontend featuring interactive stock charts, autocomplete search, and real-time portfolio monitoring dashboards; developed a native Swift iOS companion app with cross-platform feature parity",
+        "Implemented end-to-end and unit tests to validate API endpoints and data pipeline reliability across web and mobile clients before each deployment"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages",
+      "items": "Python, Go, Java, JavaScript, TypeScript, C, C++, Swift, SQL, HTML/CSS"
+    },
+    {
+      "category": "Frameworks & Libraries",
+      "items": "React, Angular, Next.js, Node.js, Express.js, Spring Boot, Gin, Flask, FastAPI, Tailwind CSS, PyTorch"
+    },
+    {
+      "category": "Cloud & DevOps",
+      "items": "AWS, GCP, Docker, Kubernetes, Git, CI/CD, Terraform"
+    },
+    {
+      "category": "Databases & Infrastructure",
+      "items": "PostgreSQL, MongoDB, MySQL, Redis"
+    }
+  ]
+}

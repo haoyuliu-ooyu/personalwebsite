@@ -1,0 +1,27 @@
+/* XP Global Styles */
+@font-face {
+  font-family: 'Tahoma';
+  src: local('Tahoma');
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Tahoma', sans-serif;
+  background-color: #004e98; /* Classic XP Desktop Blue */
+  background-image: linear-gradient(135deg, #004e98 0%, #3a6ea5 100%);
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden; /* Desktop doesn't scroll natively, windows do */
+  color: #000;
+}
+
+#root {
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}

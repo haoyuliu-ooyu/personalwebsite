@@ -1,0 +1,83 @@
+.window {
+  display: flex;
+  flex-direction: column;
+  background-color: #ece9d8;
+  border-radius: 8px 8px 3px 3px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5), inset 1px 1px 0 rgba(255,255,255,0.7), inset -1px -1px 0 rgba(0,0,0,0.3);
+  box-sizing: border-box;
+  border: 1px solid #00138c;
+  pointer-events: auto;
+  position: absolute;
+}
+
+.titleBar {
+  background: linear-gradient(180deg, #7ba2e7 0%, #6393e5 8%, #5286e5 40%, #3e78e2 88%, #2e6bda 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 5px;
+  height: 30px;
+  border-radius: 6px 6px 0 0;
+  border-bottom: 1px solid #00138c;
+  cursor: default;
+}
+
+.window.active .titleBar {
+  background: linear-gradient(180deg, #0058e6 0%, #3a93ff 8%, #288eff 40%, #127dff 88%, #036bca 100%);
+}
+
+.titleText {
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  text-shadow: 1px 1px 1px #0f1089;
+  letter-spacing: 0.5px;
+  user-select: none;
+}
+
+.titleButtons {
+  display: flex;
+  gap: 2px;
+}
+
+.button {
+  width: 21px;
+  height: 21px;
+  border: 1px solid white;
+  border-radius: 3px;
+  box-shadow: inset -1px -1px 1px rgba(0, 0, 0, 0.7), inset 1px 1px 1px rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: white;
+  cursor: default;
+  font-family: inherit;
+  opacity: 0.7;
+}
+
+.window.active .button {
+  opacity: 1;
+}
+
+.minMax {
+  background: linear-gradient(180deg, #fff 0%, #bedaf5 15%, #92c4f1 40%, #68aef2 80%, #a4d2f8 100%);
+  border-color: #0b2b8c;
+  color: #0b2b8c;
+}
+
+.close {
+  background: linear-gradient(180deg, #f2aeb0 0%, #e8635c 15%, #e14030 40%, #c41c10 80%, #df6956 100%);
+  border-color: #f7aaaa;
+}
+
+.content {
+  padding: 10px;
+  flex: 1;
+  overflow-y: auto;
+  font-size: 13px;
+  background-color: white;
+  margin: 0 3px 3px 3px;
+  border: 1px solid #8e8f8f;
+  cursor: default;
+}

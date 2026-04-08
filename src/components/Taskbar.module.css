@@ -1,0 +1,78 @@
+.taskbar {
+  display: flex;
+  height: 30px;
+  background: linear-gradient(180deg, #245edb 0%, #3f8cf3 9%, #245edb 18%, #245edb 92%, #333 100%);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  align-items: center;
+  box-shadow: 0 -1px 2px rgba(0,0,0,0.4);
+}
+
+.startButton {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  height: 100%;
+  padding: 0 15px 0 10px;
+  background: linear-gradient(180deg, #378b2e 0%, #4db041 10%, #3e9834 50%, #2e7a23 100%);
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 16px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  border-radius: 0 15px 15px 0;
+  box-shadow: inset 1px 1px 2px rgba(255,255,255,0.4), 2px 0 2px rgba(0,0,0,0.3);
+  cursor: default;
+  user-select: none;
+}
+
+.startButton:active {
+  background: linear-gradient(180deg, #2e7a23 0%, #3e9834 50%, #4db041 90%, #378b2e 100%);
+  box-shadow: inset 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.taskbarItems {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+  gap: 3px;
+}
+
+.taskbarItem {
+  background: linear-gradient(180deg, #3e7de7 0%, #2f69ce 50%, #1f57b5 100%);
+  color: white;
+  font-size: 11px;
+  padding: 0 15px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+  border: 1px solid rgba(0,0,0,0.2);
+  box-shadow: inset 1px 1px 1px rgba(255,255,255,0.2);
+  cursor: default;
+}
+
+.taskbarItem.active {
+  background: linear-gradient(180deg, #1c4a96 0%, #2256a9 50%, #2a66c4 100%);
+  box-shadow: inset 2px 2px 3px rgba(0,0,0,0.4);
+}
+
+.systemTray {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  background: linear-gradient(180deg, #0f8de0 0%, #00bcff 10%, #0db3f4 50%, #0b8cd3 100%);
+  padding: 0 10px;
+  color: white;
+  font-size: 11px;
+  border-left: 1px solid rgba(0,0,0,0.2);
+  box-shadow: inset 1px 0 1px rgba(255,255,255,0.3);
+}
+
+.clock {
+  margin-left: 5px;
+}
