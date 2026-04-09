@@ -3,19 +3,26 @@
     "name": "Haoyu Liu",
     "contact": "Tel: +12179740614 | Email: hliu8571@usc.edu",
     "links": [
-      { "name": "LinkedIn", "url": "https://www.linkedin.com/in/liuhaoyuu/" },
-      { "name": "Github", "url": "https://github.com/Haoyuliu-ooyu" }
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/liuhaoyuu/"
+      },
+      {
+        "name": "Github",
+        "url": "https://github.com/Haoyuliu-ooyu"
+      }
     ]
   },
   "education": [
     {
       "school": "University of Southern California | Los Angeles, CA",
       "date": "Aug 2023 - May 2026",
-      "degree": "Master of Science in Computer Science | GPA: 3.71/4.00"
+      "degree": "Master of Science in Computer Science | GPA: 3.71/4.00",
+      "courses": ""
     },
     {
       "school": "University of Illinois, Urbana-Champaign | Champaign, IL",
-      "date": "Aug 2019 – May 2023",
+      "date": "Aug 2019 \u2013 May 2023",
       "degree": "Bachelor of Science in Computer Science & Linguistics | GPA: 3.91/4.00",
       "courses": "Data Structure & Algorithms, System Programming, Computer Architecture, Artificial Intelligence, Computational Linguistics, Programming Languages & Compiler, Computer Networks, Analysis of Algorithms, Web Development"
     }
@@ -23,7 +30,7 @@
   "work_experience": [
     {
       "title": "Software Engineering Intern | Biaodian | Hangzhou, China",
-      "date": "Jan 2025 – Jul 2025",
+      "date": "Jan 2025 \u2013 Jul 2025",
       "bullets": [
         "Developed authentication system for delivery drivers using Java, Spring Boot, and Redis for session management on construction equipment rental platform",
         "Built a statistical reporting dashboard with MySQL queries and automated data generation for business intelligence",
@@ -34,21 +41,19 @@
     },
     {
       "title": "Software Engineering Intern | Redvest | Los Angeles, CA",
-      "date": "Jun 2024 – Aug 2024",
+      "date": "Jun 2024 \u2013 Aug 2024",
       "bullets": [
-        "Led a team of 6-7 interns as Tech Lead in developing Bankzzz, a platform connecting startup companies with potential users",
-        "Architected and implemented a full-stack application using React, Tailwind CSS for frontend and Node.js accompanied with Google Firebase for backend services",
-        "Oversaw project's GitHub repository and deployment pipeline using Firebase, including Firestore database integration",
+        "Led a team of 6-7 interns as Tech Lead in developing Bankzzz, a platform connecting startup companies with potential users \u25cf Architected and implemented a full-stack application using React, Tailwind CSS for frontend and Node.js accompanied with Google Firebase for backend services \u25cf Oversaw project's GitHub repository and deployment pipeline using Firebase, including Firestore database integration",
         "Established development workflows and best practices for intern team, ensuring consistent code quality and timely delivery"
       ]
     },
     {
       "title": "Research Assistant/Software Engineer | Coordinated Science Laboratory | Champaign, IL",
-      "date": "Apr 2022 – May 2023",
+      "date": "Apr 2022 \u2013 May 2023",
       "bullets": [
-        "Contributed in DARPA’s INfluence Campaign Awareness and Sensemaking project, serving over 100 researchers",
+        "Contributed in DARPA\u2019s INfluence Campaign Awareness and Sensemaking project, serving over 100 researchers",
         "Engineered a robust frontend using JavaScript, React, and Bootstrap for effective data visualization using libraries like d3, Plotly, and Chart.js",
-        "Collaborated with 15+ member team to develop a Backend data post-processing pipeline with Python and Redis, streamlining ML model outputs for frontend integration"
+        "Collaborated with 15 + member team to develop a Backend data post-processing pipeline with Python and Redis, streamlining ML model outputs for frontend integration"
       ]
     }
   ],
@@ -76,18 +81,18 @@
   "skills": [
     {
       "category": "Languages",
-      "items": "Python, Go, Java, JavaScript, TypeScript, C, C++, Swift, SQL, HTML/CSS"
+      "items": "Python, Go, Java, JavaScript, TypeScript, C, C++, Swift, SQL, HTML/"
     },
     {
-      "category": "Frameworks & Libraries",
-      "items": "React, Angular, Next.js, Node.js, Express.js, Spring Boot, Gin, Flask, FastAPI, Tailwind CSS, PyTorch"
+      "category": "CSS Frameworks & Libraries",
+      "items": "React, Angular, Next.js, Node.js, Express.js, Spring Boot, Gin, Flask, FastAPI, Tailwind CSS,"
     },
     {
-      "category": "Cloud & DevOps",
-      "items": "AWS, GCP, Docker, Kubernetes, Git, CI/CD, Terraform"
+      "category": "MaterialUI Cloud & DevOps",
+      "items": "AWS, GCP, Docker, Kubernetes, Git, CI/CD,"
     },
     {
-      "category": "Databases & Infrastructure",
+      "category": "Terraform Databases & Infrastructure",
       "items": "PostgreSQL, MongoDB, MySQL, Redis"
     }
   ]
